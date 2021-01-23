@@ -8,5 +8,10 @@ while True:
 	products.append([name, price]) # 一次寫完省略之前三行寫法
 print(products)
 
+for p in products:
+	print(p[0], "的價格是", p[1])
+	
+
+
 
 
