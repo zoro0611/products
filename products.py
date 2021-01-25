@@ -9,6 +9,7 @@ with open("products.csv", 'r', encoding='utf-8') as f:
 
 print(products)
 
+#讓使用者輸入
 while True:
 	name = input("請輸入商品名稱: ")
 	if name == "q":
